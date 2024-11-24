@@ -46,10 +46,10 @@ public class Main {
                         sortChoice = Integer.parseInt(scanner.nextLine());
                         if (sortChoice == 1) {
                             System.out.println("Sorting students by marks in ascending order...");
-                            management.sortStudentsAscending();; // Sắp xếp tăng dần
+                            management.sortStudentsAscending();; 
                         } else if (sortChoice == 2) {
                             System.out.println("Sorting students by marks in descending order...");
-                            management.sortStudentsDescending(); // Sắp xếp giảm dần
+                            management.sortStudentsDescending(); 
                         } else {
                             System.out.println("Invalid choice. Returning to main menu.");
                         }
